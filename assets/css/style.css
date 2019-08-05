@@ -1,15 +1,18 @@
 body {
     background-color: lightskyblue;
-    padding: auto;
+    width: 60%;
+
 
 }
 
 header {
     text-align: center;
     background: orange;
-    font-size: large;
-    padding: auto;
-    width: 40%;
+    font-size: 36px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    height: 100px;
+    width: 300px;
     position: center;
     
 }
@@ -28,10 +31,13 @@ header {
 #randomNumber {
 
     text-align: center;
-    background: navy;
-    font-size: medium;
-    padding: auto;
-    width: 40%;
+    background: pink;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 200px;
 
     
 }
@@ -39,10 +45,12 @@ header {
 #playerNumber {
 
     text-align: center;
-    background: rebeccapurple;
-    font-size: medium;
-    padding: auto;
-    width: 40%;
+    background: seagreen;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 100x;
+    width: 200px;
 
 }
 
@@ -78,17 +86,46 @@ header {
 #scorebox {
     
     text-align: center;
-    background: burlywood;
+    background: grey;
     font-size: medium;
-    padding: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 40%;
 
 }
 
 .crystalImages {
 
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
+    padding: auto;
+    margin-bottom: 10px;
+}
+
+#crystals {
+
+    text-align: center;
+    background: tan;
+    font-size: medium;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 40%;
+
+}
+
+#yourTotalScoreIs {
+
+    text-align: center;
+    background: greenyellow;
+    font-size: medium;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+
 }
 
 
