@@ -58,9 +58,12 @@ header {
     
     text-align: center;
     background: green;
-    font-size: medium;
-    padding: auto;
-    width: 40%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 200px;
 
 }
 
