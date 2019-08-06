@@ -18,11 +18,13 @@ let crystal4div = document.getElementById("crystalimage4")
 let RandomChoice = RandomNumbers[Math.floor(Math.random()*RandomNumbers.length)]; 
 console.log(RandomChoice);
 
-randomnumberdiv.textContent = "Random Number: " + RandomChoice;
+
+
+randomnumberdiv.textContent = "Random Number: " + RandomNumbers[RandomChoice];
 
 let cry1 = crystalNumbers[Math.floor](Math.random()*crystalNumbers.length);
 let cry2 = crystalNumbers[Math.floor](Math.random()*crystalNumbers.length);
 let cry3 = crystalNumbers[Math.floor](Math.random()*crystalNumbers.length);
 let cry4 = crystalNumbers[Math.floor](Math.random()*crystalNumbers.length);
 
-crystal1div.textContent = cry1
+crystal1div.textContent = CrystalNumbers[cry1]
